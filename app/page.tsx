@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, DragEvent } from "react";
-
 export default function HomePage() {
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
@@ -361,3 +360,4 @@ export default function HomePage() {
     </div>
   );
 }
+
